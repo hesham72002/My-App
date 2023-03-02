@@ -33,10 +33,11 @@ android {
         jvmTarget = '1.8'
     }
     buildToolsVersion '33.0.0'
+    namespace 'com.hshm.myapplication'
 }
 
 dependencies {
-
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'
